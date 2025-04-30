@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const ctx = canvas.getContext('2d');
 
     const birdImg = new Image();
-    birdImg.src = '/static/images/bird.png';
+    birdImg.src = '/static/images/bird1.png';
 
 
     let birdY = 200;

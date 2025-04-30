@@ -1,12 +1,22 @@
 body {
     margin: 0;
     overflow: hidden;
-    background-color: #70c5ce;
+    background-color: #282a31;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #gameCanvas {
     display: block;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     margin: 0 auto;
-    background: #ebd408;
+    background: url('../images/background.png') no-repeat center center fixed;
+    background-size: cover;
+    width: 40%;
+    height: 98vh;
+    margin-top: 5px;
+    background-repeat: no-repeat;
 }
 #scoreBoard {
     position: absolute;
